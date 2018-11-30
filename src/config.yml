@@ -1,0 +1,11 @@
+debug: false
+autostart: false
+worlds: 
+ - world
+blocks:
+ - JACK_O_LANTERN
+ - TORCH
+ - WALL_TORCH
+ - END_ROD
+ - SEA_LANTERN
+replace_with: AIR

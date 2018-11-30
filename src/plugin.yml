@@ -1,0 +1,26 @@
+name: Unc_RemoveBlocks
+version: 1.0
+main: me.uncovery.removeblocks.Main
+commands:
+api-version: 1.13
+commands:
+  removeblocks:
+    description: Toggle debugging or reload config or start checking newly loaded chunks for removeblocks
+    usage: /regionbreedlimit [reload|debug|start|stop|checkloaded]
+  
+permissions:
+  removeblocks.debug:
+    description: Allow toggling of debug output to console from removeblocks
+    default: false
+  removeblocks.reload:
+    description: Allow reloading removeblocks config
+    default: false
+  removeblocks.start:
+    description: Allow starting removeblocks
+    default: false  
+  removeblocks.stop:
+    description: Allow stopping removeblocks
+    default: false    
+  removeblocks.checkloaded:
+    description: replacing blocks in loaded chunks
+    default: false    
